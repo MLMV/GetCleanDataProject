@@ -9,5 +9,6 @@ Source files were downloaded from
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original data decriptions to be found at
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+More information on each source file is in README_SMARTLAB.txt which is included in this repo.
 
 The script is divided in sections that load, merge, subset, group and summarize, and then export the data.
