@@ -1,21 +1,25 @@
 Run Analysis - Code Book 
 =================
 
-This analysis is based on accelerometer and gyroscope readings from Smartlab. Smartlab used these signals to 
-estimate variables of a feature vector for a number of patterns. For each of these, the Smartlab data set contains
-(among other variables) a mean(): Mean value and std(): Standard deviation.
+This analysis is based on accelerometer and gyroscope readings from Smartlab. 
+Smartlab used these signals to estimate variables of a feature vector for a 
+number of patterns. For each of these, the Smartlab data set contains (among 
+other variables) a mean(): Mean value and std(): Standard deviation. The 
+detailed explanation of the data collection process is included in this repo 
+in the file 'features_info.txt'. The complete list of variables of each 
+feature vector included in the source data is available in 'features.txt'  
 
-The detailed explanation of the data collection process is included in this repo in the file 'features_info.txt'. 
-The complete list of variables of each feature vector included in the source data is available in 'features.txt'
-
-For the purpose of this analysis, readings from the test and training data sets in the files 'X_test.txt' and 
-'X_train.txt' were combined. Column labels were then assigned based on the 'features.txt' file. Activity codes from 
-the files 'y_test.txt' and 'y_train.txt' were added to the set. Subject numbers were added from the files 
-'subject_test.txt' and 'subject_train.txt. Activity names were assigned based on the reference table in 'activity_labels.txt'.
+For the purpose of this analysis, readings from the test and training data 
+sets in the files 'X_test.txt' and 'X_train.txt' were combined. Column labels 
+were then assigned based on the 'features.txt' file. Activity codes from the 
+files 'y_test.txt' and 'y_train.txt' were added to the set. Subject numbers 
+were added from the files 'subject_test.txt' and 'subject_train.txt. Activity 
+names were assigned based on the reference table in 'activity_labels.txt'. 
 Data was then grouped and summarized.
 
-The output file 'run_analysis.txt' contains averages of the mean values and standard devations, grouped by subject and activity,
-for the following 66 variables:
+The output file 'run_analysis.txt' contains averages of the mean values and 
+standard devations, grouped by subject and activity, for the following 66 
+variables:
  
  $ variable					  : type first 5 values
  ----------------------------------------------------------------------------------
