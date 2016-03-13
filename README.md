@@ -12,3 +12,5 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 More information on each source file is in README_SMARTLAB.txt which is included in this repo.
 
 The script is divided in sections that load, merge, subset, group and summarize, and then export the data.
+The output data is included in this repo in the file run_analysis.txt.
+A codebook with descriptions of the output is in the file codebook.txt.
