@@ -1,4 +1,4 @@
 # GetCleanDataProject
 Coursera Getting &amp; Cleaning Data Course Project
 
-### This explains how all of the scripts work and how they are connected.
+This file explains the Getting & Cleaning Data Project, all of its scripts and how they are connected.
